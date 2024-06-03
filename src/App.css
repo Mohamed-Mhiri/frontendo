@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.plot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.plot-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px; /* Ensure plots have a consistent max-width */
+  margin-bottom: 20px; /* Add space between the plots */
+}
+
+.custom-file-input {
+  width: auto;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+header, form {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.title-primary {
+  font-size: 2em; /* Larger font size for the main title */
+  margin-bottom: 20px;
+  font-weight: normal; /* Remove bold effect */
+}
+
+.title-secondary {
+  font-size: 1.5em; /* Slightly smaller font size for the secondary titles */
+  margin-top: 20px;
+  font-weight: normal; /* Remove bold effect */
+}
+
+h1 {
+  margin-bottom: 40px; /* Add more space below the main header */
+}
+
+h2 {
+  margin-bottom: 10px; /* Ensure there is some space below the secondary headers */
+}
